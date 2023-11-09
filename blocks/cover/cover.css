@@ -1,0 +1,59 @@
+
+.cover{
+    display:flex;
+    position: relative;
+    flex-direction: column;
+    width: 1184px;
+    height: 740px;
+    justify-content: center;
+    align-items: center;
+    padding: 48px;
+   
+   }
+   
+   .cover__container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+   
+   
+   }
+   .cover__title{
+   color: #FFFFFF;
+   font-size: 72px;
+   line-height: 76px;
+   text-align: center;
+   font-style: normal;
+   z-index: 1;
+   width: 656px;
+   
+   
+   }
+   
+   
+   
+   .cover__subtitle{
+   color: #FFFFFF;
+   font-family: Inter;
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 22px;
+   text-align: center;
+   z-index: 1;
+   width: 280px;
+   height: 66px;
+   
+   
+   
+   
+   }
+   
+   .cover__image{
+   position: absolute;
+   width: 1184px;
+   height: 740px;
+   
+   }
+   

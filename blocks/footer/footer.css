@@ -1,0 +1,21 @@
+
+.footer{
+    color: #FFFFFF;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.footer__copyright{
+   color: #FFFFFF;
+   font-family: Inter;
+   font-weight: normal;
+   font-size: 14px;
+   font-style: normal;
+   text-align: center;
+   width: 191px;
+   height: 16px;
+
+}

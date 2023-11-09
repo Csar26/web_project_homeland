@@ -1,21 +1,28 @@
 @import url(normalize.css);
-@font-face {
-    font-family: inter;
-    src: url(fonts/Inter-Web/inter.css);
-}
+@import url(../blocks/page/page.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/places/places.css);
+@import url(../blocks/place/place.css);
+@import url(../blocks/buy-button/buy-button.css);
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/fonts/fonts.css);
+    
 
 
+/*
 .page{
 background-color:  #2A2C2F;
-flex-direction: column;
-align-items: center;
 margin: 0 auto;
-
-
+font-family: "inter";
+width: 1280px;
 
 
 }
-
 
 .header{
     display:flex;
@@ -28,14 +35,19 @@ margin: 0 auto;
 .logo{
     height: 70px;
     width: 270px;
+    padding-top: 34px;
 
 }
 
 .lead{
+display: flex;
+flex-direction: column;
 width: 984px;
 height: 983px;
-top: 194px;
+padding-top: 194px;
 left: 148px;
+justify-content: space-between;
+align-items: center;
 
 
 }
@@ -84,9 +96,11 @@ display: flex;
 position: relative;
 flex-direction: column;
 color: #FFFFFF;
-margin: 0;
-align-items: center;
-justify-content: space-between;
+align-items: baseline;
+width: 1017px;
+height: 516px;
+padding: 48px;
+left: 148px;
 
 }
 
@@ -104,6 +118,7 @@ text-align: left;
 }
 
 .intro__quote{
+display: flex;
 flex-direction: column;
 width: 722px;
 height: 136px;
@@ -116,15 +131,13 @@ text-align: left;
 }
 
 .intro__author{
-    position: absolute;
+    
     font-family: Inter;
     font-size: 24px;
     font-weight: 400;
     line-height: 34px;
-    bottom: 0;
+    margin: 0;
     text-align: right;
-    width: 720px;
-    height: 34px;
 
 
     
@@ -136,6 +149,11 @@ text-align: left;
     height: 182px;
     top: 1603px;
     left: 148px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+
     
 }
 
@@ -146,6 +164,8 @@ text-align: left;
     height: 442px;
     margin: 0;
     align-items: center;
+    justify-content: center;
+    padding: 48px;
 
 }
 
@@ -153,9 +173,7 @@ text-align: left;
 .places{
     display: flex;
     flex-direction: column;
-    width: 987px;
     align-items: center;
-    height: 4098px;
 
 
 
@@ -234,33 +252,27 @@ grid-area: image;
 
 
 }
-.action-button{
+.buy-button{
 width: 335px;
 height: 48px;
 border-radius: 4px;
 background: #0278FE;
 text-decoration: none;
 display: block;
-padding: 13px, 20px, 13px, 20px;
-gap: 10px;
 grid-area: button;
 text-align: center;
 
-
-
 }
 
-.action-button__paragraph{
+.buy-button__paragraph{
 color: #fff;
 font-family: Inter;
-font-size: 14px;
+font-size: 18px;
 font-style: normal;
-font-weight: 600;
+font-weight: bold;
 line-height: 17px;
 text-align: center;
-
-
-    
+   
 }
 
 .place__paragraphs{
@@ -291,6 +303,8 @@ width: 484px;
  width: 1184px;
  height: 740px;
  justify-content: center;
+ align-items: center;
+ padding: 48px;
 
 }
 
@@ -305,11 +319,14 @@ width: 484px;
 }
 .cover__title{
 color: #FFFFFF;
-font-family: Inter;
 font-size: 72px;
 line-height: 76px;
 text-align: center;
+font-style: normal;
 z-index: 1;
+width: 656px;
+
+
 }
 
 
@@ -322,6 +339,9 @@ font-weight: 400;
 line-height: 22px;
 text-align: center;
 z-index: 1;
+width: 280px;
+height: 66px;
+
 
 
 
@@ -335,12 +355,39 @@ height: 740px;
 }
 
 
-.action-button_cover{
+.buy-button_cover{
+    z-index: 1;
+    width: 198px;
+    height: 48px;
+     gap: 10px
+
+}
+.buy-button__paragraph_cover{
     z-index: 1;
 }
-.action-button__paragraph_cover{
-    z-index: 1;
+
+
+.footer{
+    color: #FFFFFF;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    
+
 }
+.footer__copyright{
+   color: #FFFFFF;
+   font-family: Inter;
+   font-weight: normal;
+   font-size: 14px;
+   font-style: normal;
+   text-align: center;
+   width: 191px;
+   height: 16px;
+
+}
+
 
 /*
 @media screen and (min-width:768px) {
@@ -385,7 +432,7 @@ height: 740px;
     width: initial;
 }
 
-.action-button{
+.buy-button{
     grid-area: button;
 }
 
@@ -488,7 +535,7 @@ height: 460px;
 
 
 }
-.action-button{
+.buy-button{
 width: 335px;
 height: 48px;
 border-radius: 4px;
@@ -502,7 +549,7 @@ gap: 10px;
 
 }
 
-.action-button__paragraph{
+.buy-button__paragraph{
 color: #fff;
 font-family: Inter;
 font-size: 14px;
@@ -575,7 +622,7 @@ width: 288px;
     width: initial;
 }
 
-.action-button{
+.buy-button{
     grid-area: button;
 }
 

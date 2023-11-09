@@ -1,0 +1,34 @@
+
+.buy-button{
+    width: 335px;
+    height: 48px;
+    border-radius: 4px;
+    background: #0278FE;
+    text-decoration: none;
+    display: block;
+    grid-area: button;
+    text-align: center;
+    
+    }
+    
+    .buy-button__paragraph{
+    color: #fff;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 17px;
+    text-align: center;
+       
+    }
+    
+.buy-button_cover{
+    z-index: 1;
+    width: 198px;
+    height: 48px;
+     gap: 10px
+
+}
+.buy-button__paragraph_cover{
+    z-index: 1;
+}
