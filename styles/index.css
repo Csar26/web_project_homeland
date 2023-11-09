@@ -13,6 +13,13 @@
 @import url(../blocks/fonts/fonts.css);
     
 
+@media screen and (max-width:768px){
+ .lead__title{
+ width: 720px;
+ height: 371px;
+
+ }
+}
 
 /*
 .page{

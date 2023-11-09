@@ -8,7 +8,8 @@
     display: block;
     grid-area: button;
     text-align: center;
-    
+    justify-content: center;
+    margin: 48px 0 40px;
     }
     
     .buy-button__paragraph{
@@ -26,9 +27,14 @@
     z-index: 1;
     width: 198px;
     height: 48px;
-     gap: 10px
 
 }
 .buy-button__paragraph_cover{
     z-index: 1;
+}
+
+
+.buy-button_cover:hover ~ .cover__image{
+    opacity: 0.3;
+
 }

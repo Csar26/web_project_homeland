@@ -19,7 +19,7 @@
     font-family: Inter;
     font-weight: 900;
     font-style: normal;
-    width: 460px;
+    width: 540px;
     font-size: 72px;
     font-weight: 900;
     line-height: 76px;
@@ -37,6 +37,7 @@
     text-decoration: none;
     width: 456px;
     grid-area: website;
+    align-self: flex-end;
 
 }
 .place__artist{
