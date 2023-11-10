@@ -1,13 +1,13 @@
 
 .buy-button{
-    width: 335px;
+    width: 355px;
     height: 48px;
     border-radius: 4px;
     background: #0278FE;
     text-decoration: none;
-    display: block;
+    display: flex;
     grid-area: button;
-    text-align: center;
+    align-items: center;
     justify-content: center;
     margin: 48px 0 40px;
     }
@@ -17,9 +17,8 @@
     font-family: Inter;
     font-size: 18px;
     font-style: normal;
-    font-weight: bold;
     line-height: 17px;
-    text-align: center;
+    
        
     }
     
@@ -27,6 +26,7 @@
     z-index: 1;
     width: 198px;
     height: 48px;
+    margin: 0;
 
 }
 .buy-button__paragraph_cover{

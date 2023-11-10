@@ -7,7 +7,7 @@
     height: 740px;
     justify-content: center;
     align-items: center;
-    padding: 48px;
+    margin: auto;
    
    }
    
@@ -17,18 +17,21 @@
     position: relative;
     align-items: center;
     justify-content: center;
+    margin: 0;
     
    
    
    }
    .cover__title{
    color: #FFFFFF;
+   font-family: Inter;
    font-size: 72px;
    line-height: 76px;
    text-align: center;
    font-style: normal;
    z-index: 1;
    width: 656px;
+   margin: 0;
    
    
    }
@@ -37,7 +40,7 @@
    
    .cover__subtitle{
    color: #FFFFFF;
-   font-family: Inter;
+   font-family: none;
    font-size: 18px;
    font-weight: 400;
    line-height: 22px;
@@ -45,6 +48,7 @@
    z-index: 1;
    width: 280px;
    height: 66px;
+   margin: 0;
    
    
    
@@ -53,8 +57,10 @@
    
    .cover__image{
    position: absolute;
-   width: 1184px;
-   height: 740px;
+   height: 100%;
+   width: 100%;
+   left: 0;
+   top: 0;
    
    
    }

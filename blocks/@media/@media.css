@@ -1,7 +1,151 @@
-@media screen and (min-width:768px){
-    .lead__title{
-       width: 720px;
-   height: 371px;
+@media screen and (max-width:768px){
+
+
+.intro{
+   width: 720px;
+   height: 607px;
+   align-items: center;
    
-    }
+}
+
+.intro__title{
+   width: 720px;
+   height: 232px;
+   
+}
+
+.intro__quote{ 
+   font-family: none;
+   width: 720px;
+}
+
+.intro__autho{
+   font-family: none;
+}
+
+.photo-grid{
+grid-template-columns: repeat(2, 1fr);
+color:red;
+width: 100%;
+height: 1104px;
+align-items: stretch;
+row-gap: 10px;
+
+
+
+}
+
+.place{
+
+   width: 720px;
+   grid-template-columns: 355px 352px;
+}
+
+.place__title{
+   width: 340px;
+   height: 46px;
+   font-family: Inter;
+   font-size: 42px;
+   font-weight: 900;
+   line-height: 46px;
+
+
+
+}
+
+.place__website{
+ width: 295px;
+ height: 67px;
+ 
+}
+
+.place__artist{
+   font-size: 12px;
+   line-height: 15px;
+   width: 58px;
+   height: 15px;
+
+   
+
+}
+
+
+.place__url-heading{
+   width: 295px;
+   height: 44px;
+
+
+}
+
+.place__image{
+ width: 340px;
+ height: 340px;
+
+}
+
+.place__paragraphs{
+   width: 352px;
+
+
+}
+
+.place__paragraph{
+font-family: none;
+font-style: normal;
+width: 352px;
+
+
+}
+
+.cover{
+width: 768px;
+height: 746px;
+overflow: hidden;
+
+}
+
+   }
+
+   
+   @media screen and (max-width:320px) {
+
+      .logo{
+         width: 200px;
+         height: 51.85px;
+      }
+
+      .lead{
+         justify-content: stretch;
+         width: 288px;
+      }
+
+
+      .lead__title{
+         width: 288px;
+         height: 88px;
+         font-size: 40px;
+         font-weight: 900;
+         line-height: 44px;
+         top: 122px;
+
+
+      }
+
+      .lead__subtitle{
+         width: 288px;
+         height: 40px;
+         font-family: Inter;
+         font-size: 16px;
+         line-height: 20px;
+
+
+      }
+     
+      .lead__image{
+         width: 320px;
+         height: 200px;
+         top: 350px;
+
+      }
+
    }

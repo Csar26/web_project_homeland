@@ -11,15 +11,9 @@
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/fonts/fonts.css);
+@import url(../blocks/@media/@media.css);
     
 
-@media screen and (max-width:768px){
- .lead__title{
- width: 720px;
- height: 371px;
-
- }
-}
 
 /*
 .page{
