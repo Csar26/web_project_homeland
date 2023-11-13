@@ -29,6 +29,11 @@
     margin: 0;
 
 }
+
+.buy-button:hover{
+    opacity: 0.4;
+}
+
 .buy-button__paragraph_cover{
     z-index: 1;
 }

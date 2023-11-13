@@ -11,17 +11,6 @@
    
    }
    
-   .cover__container{
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
-    
-   
-   
-   }
    .cover__title{
    color: #FFFFFF;
    font-family: Inter;
@@ -40,14 +29,13 @@
    
    .cover__subtitle{
    color: #FFFFFF;
-   font-family: none;
+   font-family: Inter;
    font-size: 18px;
    font-weight: 400;
    line-height: 22px;
    text-align: center;
    z-index: 1;
    width: 280px;
-   height: 66px;
    margin: 0;
    
    
@@ -57,11 +45,10 @@
    
    .cover__image{
    position: absolute;
-   height: 100%;
    width: 100%;
-   left: 0;
-   top: 0;
-   
    
    }
    
+   .cover__image:hover{
+    opacity: 0.3;
+   }

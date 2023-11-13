@@ -3,14 +3,12 @@
 
 .intro{
    width: 720px;
-   height: 607px;
    align-items: center;
    
 }
 
 .intro__title{
    width: 720px;
-   height: 232px;
    
 }
 
@@ -19,15 +17,12 @@
 }
 
 .intro__author{
-   font-family: none;
+   font-family: Inter;
 }
 
 .photo-grid{
 grid-template-columns: repeat(2, 1fr);
-color:red;
-width: 100%;
-height: 1104px;
-align-items: stretch;
+width: 720px;
 row-gap: 10px;
 
 
@@ -43,7 +38,6 @@ row-gap: 10px;
 .place__title{
    width: 340px;
    height: 46px;
-   font-family: Inter;
    font-size: 42px;
    font-weight: 900;
    line-height: 46px;
@@ -54,7 +48,7 @@ row-gap: 10px;
 
 .place__website{
  width: 295px;
- height: 67px;
+
  
 }
 
@@ -62,7 +56,6 @@ row-gap: 10px;
    font-size: 12px;
    line-height: 15px;
    width: 58px;
-   height: 15px;
 
    
 
@@ -78,7 +71,6 @@ row-gap: 10px;
 
 .place__image{
  width: 340px;
- height: 340px;
 
 }
 
@@ -89,40 +81,40 @@ row-gap: 10px;
 }
 
 .place__paragraph{
-font-family: none;
 font-style: normal;
 width: 352px;
 
 
 }
-
 .cover{
 width: 768px;
 height: 746px;
-overflow: hidden;
 
 }
 
-   }
+
+}
+
+
+
+
+
 
    
    @media screen and (max-width:320px) {
 
       .logo{
          width: 200px;
-         height: 51.85px;
       }
 
       .lead{
          justify-content: stretch;
          width: 288px;
-         height: fit-content;
       }
 
 
       .lead__title{
          width: 288px;
-         height: 88px;
          font-size: 40px;
          font-weight: 900;
          line-height: 44px;
@@ -133,7 +125,6 @@ overflow: hidden;
 
       .lead__subtitle{
          width: 288px;
-         height: 40px;
          font-family: Inter;
          font-size: 16px;
          line-height: 20px;
@@ -143,21 +134,17 @@ overflow: hidden;
      
       .lead__image{
          width: 320px;
-         height: 200px;
          top: 350px;
 
       }
 
       .intro{
          width: 288px;
-         height: 958px;
 
       }
 
       .intro__title{
          width: 288px;
-         height: 175px;
-         font-family: Inter;
          font-size: 32px;
          font-weight: 900;
          line-height: 35px;
@@ -168,22 +155,27 @@ overflow: hidden;
 
      .intro__quote{
       width: 288px;
-      height: 300px;
       line-height: 30px;
-      font-family: none;
+      
      }
 
      .intro__author{
       width: 288px;
-      height: 34px;
-      font-family: none;
+      
 
 
      }
 
+     .intro__text{
+      width: 288px;
+
+     }
+
+
+
+
      .photo-grid{
       width: 288px;
-      height: 1812px;
       grid-template-columns: repeat(1, 1fr);
       
 
@@ -191,12 +183,113 @@ overflow: hidden;
 
      }
 
+
+     .places{
+
+     }
+
       .place{
          display: flex;
          flex-direction: column;
-
-
+         justify-content: center;
+         width: 288px;
 
       }
+
+
+  
+    .place__title{
+      width: 288px;
+      font-size: 32px;
+      line-height: 35px;
+
+
+  }
+  .place__website{
+   width: 288px;
+   align-self: center;
+   margin-top: 30px;
+
+  }
+  .place__artist{
+   width: 288p;
+   font-size: 12px;
+
+
+  }
+
+.place__url-heading{
+ width: 288px;
+
+}
+
+
+.place__image{
+   width: 320px;
+
+
+}
+
+
+.place__paragraphs{
+   width: 288px;
+
+
+
+}
+
+.place__paragraph{
+   width: 288px;
+   font-size: 16px;
+   text-align: center;
+
+}
+
+.buy-button{
+   width: 288px;
+}
+
+.buy-button__paragraph{
+   width: 245px;
+   font-size: 14px;
+}
+
+.cover{
+width: 321px;
+height: 254px;
+
+
+}
+
+.cover__title{
+   width: 288px;
+   font-size: 32px;
+   line-height: 35px;
+
+
+}
+
+.cover__subtitle{
+   width: 198px;
+   font-size: 14px;
+   line-height: 16px;
+
+
+   
+}
+
+.buy-button_cover{
+   width: 198px;
+   height: 48px;
+   text-align: center;
+   font-size: 18px;
+
+}
+
+.buy-button__paragraph_cover{
+   width: 158px;
+}
+
+
 
    }
