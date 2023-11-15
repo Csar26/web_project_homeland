@@ -1,0 +1,42 @@
+@media screen and (max-width: 1279px) and (min-width: 768px) {
+  .place {
+    width: 720px;
+    grid-template-columns: 355px 352px;
+  }
+
+  .place__title {
+    width: 340px;
+    height: 46px;
+    font-size: 42px;
+    font-weight: 900;
+    line-height: 46px;
+  }
+
+  .place__website {
+    width: 295px;
+  }
+
+  .place__artist {
+    font-size: 12px;
+    line-height: 15px;
+    width: 58px;
+  }
+
+  .place__url-heading {
+    width: 295px;
+    height: 44px;
+  }
+
+  .place__image {
+    width: 340px;
+  }
+
+  .place__paragraphs {
+    width: 352px;
+  }
+
+  .place__paragraph {
+    font-style: normal;
+    width: 352px;
+  }
+}

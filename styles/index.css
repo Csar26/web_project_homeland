@@ -10,9 +10,17 @@
 @import url(../blocks/buy-button/buy-button.css);
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/footer/footer.css);
-@import url(../blocks/@media/@media.css);
-    
-
+@import url(../blocks/cover/768.css);
+@import url(../blocks/intro/768.css);
+@import url(../blocks/photo-grid/768.css);
+@import url(../blocks/place/768.css);
+@import url(../blocks/buy-button/320.css);
+@import url(../blocks/cover/320.css);
+@import url(../blocks/intro/320.css);
+@import url(../blocks/lead/320.css);
+@import url(../blocks/logo/320.css);
+@import url(../blocks/photo-grid/320.css);
+@import url(../blocks/place/320.css);
 
 /*
 .page{

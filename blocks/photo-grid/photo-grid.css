@@ -1,17 +1,14 @@
-
-.photo-grid{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    width: 1184px;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-    top: 48px;
-    gap: 10px;
-    
-
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 1184px;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  top: 48px;
+  gap: 10px;
 }
 
-.photo-grid__item{
-    width: 100%;
+.photo-grid__item {
+  width: 100%;
 }

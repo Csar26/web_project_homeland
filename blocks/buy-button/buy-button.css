@@ -1,45 +1,39 @@
-
-.buy-button{
-    width: 355px;
-    height: 48px;
-    border-radius: 4px;
-    background: #0278FE;
-    text-decoration: none;
-    display: flex;
-    grid-area: button;
-    align-items: center;
-    justify-content: center;
-    margin: 48px 0 40px;
-    }
-    
-    .buy-button__paragraph{
-    color: #fff;
-    font-family: Inter;
-    font-size: 18px;
-    font-style: normal;
-    line-height: 17px;
-    
-       
-    }
-    
-.buy-button_cover{
-    z-index: 1;
-    width: 198px;
-    height: 48px;
-    margin: 0;
-
+.buy-button {
+  width: 355px;
+  height: 48px;
+  border-radius: 4px;
+  background: #0278fe;
+  text-decoration: none;
+  display: flex;
+  grid-area: button;
+  align-items: center;
+  justify-content: center;
+  margin: 48px 0 40px;
 }
 
-.buy-button:hover{
-    opacity: 0.4;
+.buy-button__paragraph {
+  color: #fff;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 17px;
 }
 
-.buy-button__paragraph_cover{
-    z-index: 1;
+.buy-button_cover {
+  z-index: 1;
+  width: 198px;
+  height: 48px;
+  margin: 0;
 }
 
+.buy-button:hover {
+  opacity: 0.4;
+}
 
-.buy-button_cover:hover ~ .cover__image{
-    opacity: 0.3;
+.buy-button__paragraph_cover {
+  z-index: 1;
+}
 
+.buy-button_cover:hover ~ .cover__image {
+  opacity: 0.3;
 }

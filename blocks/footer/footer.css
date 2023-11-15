@@ -1,21 +1,20 @@
-
-.footer{
-    color: #FFFFFF;
-    display: flex;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    
-
+.footer {
+  color: #ffffff;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
 }
-.footer__copyright{
-   color: #FFFFFF;
-   font-family: none;
-   font-weight: normal;
-   font-size: 14px;
-   font-style: normal;
-   text-align: center;
-   width: 191px;
-   height: 16px;
-
+.footer__copyright {
+  color: #ffffff;
+  font-family: none;
+  font-weight: normal;
+  font-size: 14px;
+  font-style: normal;
+  text-align: center;
+  width: 191px;
+  height: 16px;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
 }
